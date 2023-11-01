@@ -3,19 +3,76 @@
 .facebii{
 padding: 8px;
 background: #225098;
-border-radius: 100%;}
+border-radius: 100%;
+height: 32px;
+width: 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 .twitt{
 padding: 8px;
-background: #41C1F2;
-border-radius: 100%;}
+background: #000;
+border-radius: 100%;
+height: 32px;
+width: 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
 .linkss{
 padding: 8px;
-background: #0183B9;
-border-radius: 100%;}
+background: #0a66c2;
+border-radius: 100%;
+height: 32px;
+width: 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
 .insttt{
 padding: 8px;
-background: #694D99;
-border-radius: 100%;}
+background: #c32aa3;
+border-radius: 100%;
+height: 32px;
+width: 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.whats{
+  padding: 8px;
+background: #25D366;
+border-radius: 100%;
+height: 32px;
+width: 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.google{
+  padding: 8px;
+background: #DB4437;
+border-radius: 100%;
+height: 32px;
+width: 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.header-icons{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
 .header-top .header-icons a {color: #fff;}
 .header-top .header-info a{color: #fff;}
 .header-top + .header-area {padding: 15px 0;}
@@ -152,3 +209,219 @@ ul.vlist1 li.displin{display: inline-block;color:#444141;margin-right: 10px;}
 .team-area.team-business-area .section-title .desc .btn-link{border: 2px solid;
 padding: 10px 25px;
 background: #FFB0AF;color:#fff;}
+
+
+
+#testimonial_carousel .owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  #testimonial_carousel .owl-nav button.owl-prev {
+    left: 0;
+  }
+  #testimonial_carousel .owl-nav button.owl-next {
+    right: 0;
+  }
+  
+  #testimonial_carousel .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+  }
+  #testimonial_carousel .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+  }
+  #testimonial_carousel .owl-dots button.owl-dot.active {
+    background-color: #000;
+  }
+  #testimonial_carousel .owl-dots button.owl-dot:focus {
+    outline: none;
+  }
+  #testimonial_carousel .owl-nav button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #ffb0af !important;
+
+  }
+  #testimonial_carousel span {
+      font-size: 70px;    
+      position: relative;
+      top: -5px;
+  }
+  #testimonial_carousel .owl-nav button:focus {
+      outline: none;
+  }
+
+  .testimonial_box{
+    border-radius: 10px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+padding: 10px 20px;
+margin: 5px;
+min-height: 252px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+  }
+
+  .testimonial_icon{
+    background-color: #fff;
+    font-size: 18px!important;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .success_story_wrapper{
+    background-image: url('/assets/img/bg.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    padding: 50px;
+    background-position: center;
+   
+  }
+
+  .lp_banner{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(0deg, rgb(255 176 175 / 79%), rgb(255 176 175 / 77%)),url('/assets/img/diverse-people-working-office.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bg-grey{
+    background-color: #FBFAFB;
+  }
+
+  @media (max-width:768px) {
+    .how-work-img img{
+        width: unset!important;
+        margin: auto;
+    }
+    .how-work-img{
+        text-align: center;
+    }
+    .testimonial_box{
+      padding: 17px 40px;
+    }
+  }
+
+  .icons a {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  
+    background-size: 100% 200%;
+    background-position: 0% 5%;
+  
+    transition: background-position 0.5s, color 0.5s;
+  }
+  
+  .icons a:nth-child(1) {
+    color: #1877f2;
+    background-image: linear-gradient(#fff 50%, #1877f2 50%);
+  }
+  
+  .icons a:nth-child(2) {
+    color: #000;
+    background-image: linear-gradient(#fff 50%, #000 50%);
+  }
+  
+  .icons a:nth-child(3) {
+    color: #c32aa3;
+    background-image: linear-gradient(#fff 50%, #c32aa3 50%);
+  }
+  
+  .icons a:nth-child(4) {
+    color: #0a66c2;
+    background-image: linear-gradient(#fff 50%, #0a66c2 50%);
+  }
+  .icons a:nth-child(5) {
+    color: #25D366;
+    background-image: linear-gradient(#fff 50%, #25D366 50%);
+  }
+  .icons a:nth-child(6) {
+    color: #DB4437;
+    background-image: linear-gradient(#fff 50%, #DB4437 50%);
+  }
+  
+  .icons a:hover {
+    background-position: 0% 100%;
+    color: #fff;
+  }
+
+  ._cUP1np9gMvFQrcPftuf.xahN8AEzyAvQtVj17TPv{
+    margin-top: 0px!important;
+  }
+
+  .why_choose .icon-img{
+    width: 100px!important;
+  }
+
+  .how_work_box{
+    position: relative;
+  }
+
+  .how_work_box::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #D9D9D9 -5.95%, rgba(217, 217, 217, 0.00) 136.56%);
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .hw-box{
+    position: relative;
+    z-index: 99;
+    padding: 10px;
+  }
+  
+  .ic-box{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
+    padding: 15px!important;
+  }
+  .lp_ban img, .business-image img{
+    border-radius: 10px;
+  }
+
+  .worked_for_box{
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important; */
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 15px!important;
+    margin: 10px;
+    border: 1px solid #ffb0af;
+    border-radius: 10px;
+  }
+  .worked_for_carousel{
+    margin-bottom: 20px;
+  }
+  .round-img{
+    border-radius: 10px;
+  }
+  .footer_number a{
+    color: #444141;
+    /* text-decoration: none; */
+  }
